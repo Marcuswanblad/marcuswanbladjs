@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="csskod.css">
+        <link rel="shortcut icon" type="image/x-icon" href="Statistics.ico" />
+        <title>Uppgift 2 | Marcus Wänblad</title>
+
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </head>
+
+    <body>
+
+        <div class="header">
+            <p>Airbnb data</p>
+        </div>
+        <!--MENYRADEN -->
+        
+        <div class="topnav">
+            <a href="#myDiv1">Price and Reviews</a>
+            <a href="#myDiv2">Price Spread</a>
+            <a href="#myDiv3">Accomodates Spread</a>
+            <a href="#myDiv4">Type of room</a>
+
+        </div>
+
+        <div class="center">
+            <!--PLOTLY DIAGRAMMEN -->
+            <div id="myDiv1" style="width:100%; height:400px;"></div>
+            <div id="myDiv2" style="width:400px; height:400px; float: left;"></div>
+            <div id="myDiv3" style="width:400px; height:400px; float: left;"></div>
+            <div id="myDiv4" style="width:400px; height:400px; float: left;"></div>
+
+        </div>
+    </body>
+
+    <script src="./data.js"></script>
+</html>

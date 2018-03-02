@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+/* UTSEENDET FÖR MENYRADEN*/
+.topnav {
+	overflow: hidden;
+	background-color: rgb(49, 136, 85);
+    width: 100%;
+}
+
+/* UTSEENDET FÖR LÄNKARNA */
+.topnav a {
+    float: left;
+    display: block;
+    color:#ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* UTSEENDET VID HOOVER*/
+.topnav a:hover {
+    background-color: rgb(40, 109, 68);
+    color: rgb(255, 255, 255);
+}
+/* CENTRERA OBJEKTET INNANFÖR*/
+.center {
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+}
+.header {
+    background-color: #f1f1f1;
+    padding: 10px;
+	text-align: center;
+	font-size: 50px;
+}
