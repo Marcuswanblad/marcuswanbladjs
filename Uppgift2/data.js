@@ -7161,15 +7161,11 @@ var layout1 = {
   yaxis: {title: "Reviews"}
 };
 var layout2 = {
-  bargap: 0.05,
-  bargroupgap: 0.5,
   title: 'PRICE SPREAD',
   xaxis: {title: "Price"}, 
   yaxis: {title: "Quantity"}
 };
 var layout3 = {
-  bargap: 0.05,
-  bargroupgap: 0.6,
   title: 'ACCOMODATES SPREAD',
   xaxis: {title: "Accomodates"}, 
   yaxis: {title: "Quantity"}
